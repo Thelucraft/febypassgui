@@ -1,0 +1,190 @@
+--[[
+Stupid shit made by Scripter_learnsLuau (aka @aza61234)
+Discord: STF|aza_theGodzillafan#7193 ]]
+--ENJOY LOOOL i will make a updated version with aouto generator later
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextBox_2 = Instance.new("TextBox")
+local TextBox_3 = Instance.new("TextBox")
+local TextBox_4 = Instance.new("TextBox")
+local TextBox_5 = Instance.new("TextBox")
+local TextBox_6 = Instance.new("TextBox")
+local TextBox_7 = Instance.new("TextBox")
+local TextBox_8 = Instance.new("TextBox")
+local TextBox_9 = Instance.new("TextBox")
+local TextBox_10 = Instance.new("TextBox")
+local TextBox_11 = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local CloseButton = Instance.new("TextButton")
+local HideButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.0829420984, 0, 0.182968929, 0)
+Frame.Size = UDim2.new(0, 531, 0, 20)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(0, 0, 0.950000405, 0)
+Frame_2.Size = UDim2.new(0, 531, 0, 261)
+Frame_2.Draggable = true
+
+TextBox.Parent = Frame_2
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0, 0, 0.0881226063, 0)
+TextBox.Size = UDim2.new(0, 194, 0, 21)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "dr.𐌜s𐌜e𐌜x𐌜𐌜"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+
+TextBox_2.Parent = Frame_2
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.Position = UDim2.new(0, 0, 0.241379306, 0)
+TextBox_2.Size = UDim2.new(0, 194, 0, 21)
+TextBox_2.ClearTextOnFocus = false
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = "𐌜 d𐌜 i𐌜 c𐌜 k"
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextSize = 14.000
+
+TextBox_3.Parent = Frame_2
+TextBox_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.Position = UDim2.new(0, 0, 0.371647507, 0)
+TextBox_3.Size = UDim2.new(0, 194, 0, 21)
+TextBox_3.ClearTextOnFocus = false
+TextBox_3.Font = Enum.Font.SourceSans
+TextBox_3.Text = "dr.𐌜s𐌜e𐌜x𐌜𐌜"
+TextBox_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.TextSize = 14.000
+
+TextBox_4.Parent = Frame_2
+TextBox_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_4.Position = UDim2.new(0.634651601, 0, 0.241379306, 0)
+TextBox_4.Size = UDim2.new(0, 194, 0, 21)
+TextBox_4.ClearTextOnFocus = false
+TextBox_4.Font = Enum.Font.SourceSans
+TextBox_4.Text = "𐌜 n𐌜 i𐌜 g𐌜 g𐌜 a"
+TextBox_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_4.TextSize = 14.000
+
+TextBox_5.Parent = Frame_2
+TextBox_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_5.Position = UDim2.new(0.634651601, 0, 0.0881226063, 0)
+TextBox_5.Size = UDim2.new(0, 194, 0, 21)
+TextBox_5.ClearTextOnFocus = false
+TextBox_5.Font = Enum.Font.SourceSans
+TextBox_5.Text = "𐌜 b𐌜 i𐌜 t𐌜 c𐌜 h"
+TextBox_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_5.TextSize = 14.000
+
+TextBox_6.Parent = Frame_2
+TextBox_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_6.Position = UDim2.new(-0.011299435, 0, 0.685823739, 0)
+TextBox_6.Size = UDim2.new(0, 194, 0, 21)
+TextBox_6.ClearTextOnFocus = false
+TextBox_6.Font = Enum.Font.SourceSans
+TextBox_6.Text = "dr.𐌜s𐌜e𐌜x𐌜𐌜"
+TextBox_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_6.TextSize = 14.000
+
+TextBox_7.Parent = Frame_2
+TextBox_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_7.Position = UDim2.new(0.634651601, 0, 0.540229857, 0)
+TextBox_7.Size = UDim2.new(0, 194, 0, 21)
+TextBox_7.ClearTextOnFocus = false
+TextBox_7.Font = Enum.Font.SourceSans
+TextBox_7.Text = "Place this: 𐌜"
+TextBox_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_7.TextSize = 14.000
+
+TextBox_8.Parent = Frame_2
+TextBox_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_8.Position = UDim2.new(0, 0, 0.540229917, 0)
+TextBox_8.Size = UDim2.new(0, 194, 0, 21)
+TextBox_8.ClearTextOnFocus = false
+TextBox_8.Font = Enum.Font.SourceSans
+TextBox_8.Text = "𐌜 c𐌜u𐌜m𐌜"
+TextBox_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_8.TextSize = 14.000
+
+TextBox_9.Parent = Frame_2
+TextBox_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_9.Position = UDim2.new(0.634651601, 0, 0.371647507, 0)
+TextBox_9.Size = UDim2.new(0, 194, 0, 21)
+TextBox_9.ClearTextOnFocus = false
+TextBox_9.Font = Enum.Font.SourceSans
+TextBox_9.Text = "𐌜s𐌜e𐌜x𐌜"
+TextBox_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_9.TextSize = 14.000
+
+TextBox_10.Parent = Frame_2
+TextBox_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_10.Position = UDim2.new(0, 0, 0.685823739, 0)
+TextBox_10.Size = UDim2.new(0, 194, 0, 21)
+TextBox_10.ClearTextOnFocus = false
+TextBox_10.Font = Enum.Font.SourceSans
+TextBox_10.Text = "𐌜d𐌜i𐌜s𐌜c𐌜o𐌜r𐌜d𐌜 "
+TextBox_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_10.TextSize = 14.000
+
+TextBox_11.Parent = Frame_2
+TextBox_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_11.Position = UDim2.new(0.410546154, 0, 0.685823739, 0)
+TextBox_11.Size = UDim2.new(0, 313, 0, 82)
+TextBox_11.ClearTextOnFocus = false
+TextBox_11.Font = Enum.Font.SourceSans
+TextBox_11.MultiLine = true
+TextBox_11.Text = "Write your bypass in here"
+TextBox_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_11.TextSize = 14.000
+TextBox_11.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_11.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 3.81469732e-07, 0)
+TextLabel.Size = UDim2.new(0, 278, 0, 19)
+TextLabel.Font = Enum.Font.RobotoMono
+TextLabel.Text = "BRUH FE Bypass EASY"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = Frame
+CloseButton.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+CloseButton.BorderSizePixel = 0
+CloseButton.Position = UDim2.new(0.962335229, 0, -0.049999617, 0)
+CloseButton.Size = UDim2.new(0, 20, 0, 20)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton.TextSize = 25.000
+
+HideButton.Name = "HideButton"
+HideButton.Parent = Frame
+HideButton.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+HideButton.BorderSizePixel = 0
+HideButton.Position = UDim2.new(0.924670458, 0, -0.049999617, 0)
+HideButton.Size = UDim2.new(0, 20, 0, 20)
+HideButton.Font = Enum.Font.SourceSans
+HideButton.Text = "--"
+HideButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+HideButton.TextSize = 25.000
+
+
+CloseButton.MouseButton1Click:Connect(function()
+	ScreenGui:Destroy()
+end)
