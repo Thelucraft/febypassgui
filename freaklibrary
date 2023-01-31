@@ -1,0 +1,213 @@
+-- Instances:
+_G.ScriptLibrary = true
+local LibraryGui = Instance.new("ScreenGui")
+local NiceFrame = Instance.new("Frame")
+local MainFrame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local Infinite = Instance.new("TextButton")
+local Reviz = Instance.new("TextButton")
+local GabX = Instance.new("TextButton")
+local Project = Instance.new("TextButton")
+local Laggy = Instance.new("TextButton")
+local MyScript = Instance.new("TextButton")
+local Free = Instance.new("TextButton")
+local Backdoor = Instance.new("TextButton")
+local FreeI = Instance.new("TextButton")
+local FreeII = Instance.new("TextButton")
+local CloseButton = Instance.new("TextButton")
+local HeaderLabel = Instance.new("TextLabel")
+--Properties:
+LibraryGui.Name = "LibraryGui"
+LibraryGui.Parent = game:GetService("CoreGui")
+
+NiceFrame.Name = "NiceFrame"
+NiceFrame.Parent = LibraryGui
+NiceFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NiceFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+NiceFrame.BorderSizePixel = 2
+NiceFrame.Position = UDim2.new(0.0798122063, 0, 0.139815897, 0)
+NiceFrame.Size = UDim2.new(0, 468, 0, 20)
+NiceFrame.Draggable = true
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = NiceFrame
+MainFrame.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+MainFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BorderSizePixel = 2
+MainFrame.Position = UDim2.new(0, 0, 0.999999642, 0)
+MainFrame.Size = UDim2.new(0, 468, 0, 215)
+
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(3, 3, 3)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BorderSizePixel = 2
+ScrollingFrame.Position = UDim2.new(0.123931624, 0, 0, 0)
+ScrollingFrame.Size = UDim2.new(0, 410, 0, 215)
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+Infinite.Name = "Infinite"
+Infinite.Parent = ScrollingFrame
+Infinite.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Infinite.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Infinite.Size = UDim2.new(0, 392, 0, 17)
+Infinite.Font = Enum.Font.SourceSans
+Infinite.Text = "Infinite Yield FE"
+Infinite.TextColor3 = Color3.fromRGB(255, 255, 255)
+Infinite.TextSize = 16.000
+
+Reviz.Name = "Reviz"
+Reviz.Parent = ScrollingFrame
+Reviz.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Reviz.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Reviz.Size = UDim2.new(0, 392, 0, 17)
+Reviz.Font = Enum.Font.SourceSans
+Reviz.Text = "Reviz Admin V2 FE"
+Reviz.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reviz.TextSize = 16.000
+
+GabX.Name = "GabX"
+GabX.Parent = ScrollingFrame
+GabX.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+GabX.BorderColor3 = Color3.fromRGB(255, 255, 255)
+GabX.Size = UDim2.new(0, 392, 0, 17)
+GabX.Font = Enum.Font.SourceSans
+GabX.Text = "GabX"
+GabX.TextColor3 = Color3.fromRGB(255, 255, 255)
+GabX.TextSize = 16.000
+
+Project.Name = "Project"
+Project.Parent = ScrollingFrame
+Project.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Project.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Project.Size = UDim2.new(0, 392, 0, 17)
+Project.Font = Enum.Font.SourceSans
+Project.Text = "Project Septex Library (BUILDING)"
+Project.TextColor3 = Color3.fromRGB(255, 255, 255)
+Project.TextSize = 16.000
+
+Laggy.Name = "Laggy"
+Laggy.Parent = ScrollingFrame
+Laggy.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Laggy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Laggy.Size = UDim2.new(0, 392, 0, 17)
+Laggy.Font = Enum.Font.SourceSans
+Laggy.Text = "Rose Hub??"
+Laggy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Laggy.TextSize = 16.000
+
+MyScript.Name = "MyScript"
+MyScript.Parent = ScrollingFrame
+MyScript.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MyScript.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MyScript.Size = UDim2.new(0, 392, 0, 17)
+MyScript.Font = Enum.Font.SourceSans
+MyScript.Text = "I forgot lol..............."
+MyScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+MyScript.TextSize = 16.000
+
+Free.Name = "Free"
+Free.Parent = ScrollingFrame
+Free.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Free.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Free.Size = UDim2.new(0, 392, 0, 17)
+Free.Font = Enum.Font.SourceSans
+Free.Text = "AZA_FAXE_FREAK_ADMIN_V0<--LOL!"
+Free.TextColor3 = Color3.fromRGB(255, 255, 255)
+Free.TextSize = 16.000
+
+Backdoor.Name = "Backdoor"
+Backdoor.Parent = ScrollingFrame
+Backdoor.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Backdoor.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Backdoor.Size = UDim2.new(0, 392, 0, 17)
+Backdoor.Font = Enum.Font.SourceSans
+Backdoor.Text = "Apoc Rising V1 Gui"
+Backdoor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Backdoor.TextSize = 16.000
+
+FreeI.Name = "FreeI"
+FreeI.Parent = ScrollingFrame
+FreeI.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+FreeI.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FreeI.Size = UDim2.new(0, 392, 0, 17)
+FreeI.Font = Enum.Font.SourceSans
+FreeI.Text = "DomainX"
+FreeI.TextColor3 = Color3.fromRGB(255, 255, 255)
+FreeI.TextSize = 16.000
+
+FreeII.Name = "FreeII"
+FreeII.Parent = ScrollingFrame
+FreeII.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+FreeII.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FreeII.Size = UDim2.new(0, 392, 0, 17)
+FreeII.Font = Enum.Font.SourceSans
+FreeII.Text = "Brookhaven Script"
+FreeII.TextColor3 = Color3.fromRGB(255, 255, 255)
+FreeII.TextSize = 16.000
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = NiceFrame
+CloseButton.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+CloseButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.BorderSizePixel = 2
+CloseButton.Position = UDim2.new(0.961538434, 0, 0, 0)
+CloseButton.Size = UDim2.new(0, 18, 0, 18)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton.TextSize = 20.000
+
+HeaderLabel.Name = "HeaderLabel"
+HeaderLabel.Parent = NiceFrame
+HeaderLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HeaderLabel.BackgroundTransparency = 1.000
+HeaderLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+HeaderLabel.Size = UDim2.new(0, 319, 0, 19)
+HeaderLabel.Font = Enum.Font.RobotoMono
+HeaderLabel.Text = "LOL thats random LIBRARY Scripter_learnsLuau"
+HeaderLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+HeaderLabel.TextSize = 17.000
+HeaderLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+local welcome = Instance.new("Hint", workspace)
+welcome.Text = "MADE BY Scripter_learnsLuau (@aza61234)"
+wait(6)
+welcome:Destroy()
+CloseButton.MouseButton1Click:Connect(function()
+	LibraryGui:Destroy()
+end)
+Infinite.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+Reviz.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RqaZUrBZ"))()
+end)
+GabX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FTf9uem2"))()
+end)
+Laggy.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/1BJj0fB4"))()
+end)
+Free.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wkxrrc0i"))()
+end)
+Project.MouseButton1Click:Connect(function()
+	local hint = Instance.new("Hint", workspace)
+	hint.Text = "WE WORK ON IT :skull:"
+	wait(5)
+	hint:Destroy()
+end)
+FreeI.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+end)
+FreeII.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven%22"))()
+end)
+Backdoor.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/eCCmuezM", true))()
+end)
