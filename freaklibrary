@@ -173,6 +173,7 @@ HeaderLabel.Text = "LOL thats random LIBRARY Scripter_learnsLuau"
 HeaderLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 HeaderLabel.TextSize = 17.000
 HeaderLabel.TextXAlignment = Enum.TextXAlignment.Left
+HeaderLabel.Draggable = true
 
 local welcome = Instance.new("Hint", workspace)
 welcome.Text = "MADE BY Scripter_learnsLuau (@aza61234)"
